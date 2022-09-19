@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://code.iconify.design/iconify-icon/1.0.0/iconify-icon.min.js"></script>
+    <title>Juego de Memoria</title>
+  </head>
+  <body>
+    <main>
+      <section class="section1">
+        <h1>juego de Memoria</h1>
+        <table>
+          <tr>
+            <td><button id="0" onclick="destapar(0)"></button></td>
+            <td><button id="1" onclick="destapar(1)"></button></td>
+            <td><button id="2" onclick="destapar(2)"></button></td>
+            <td><button id="3" onclick="destapar(3)"></button></td>
+          </tr>
+          <tr>
+            <td><button id="4" onclick="destapar(4)"></button></td>
+            <td><button id="5" onclick="destapar(5)"></button></td>
+            <td><button id="6" onclick="destapar(6)"></button></td>
+            <td><button id="7" onclick="destapar(7)"></button></td>
+          </tr>
+          <tr>
+            <td><button id="8" onclick="destapar(8)"></button></td>
+            <td><button id="9" onclick="destapar(9)"></button></td>
+            <td><button id="10" onclick="destapar(10)"></button></td>
+            <td><button id="11" onclick="destapar(11)"></button></td>
+          </tr>
+          <tr>
+            <td><button id="12" onclick="destapar(12)"></button></td>
+            <td><button id="13" onclick="destapar(13)"></button></td>
+            <td><button id="14" onclick="destapar(14)"></button></td>
+            <td><button id="15" onclick="destapar(15)"></button></td>
+          </tr>
+        </table>
+      </section>
+      <section class="section2">
+        <h2 id="aciertos" class="estadisticas">Aciertos</h2>
+        <h2 id="t_restante" class="estadisticas">Tiempo: 60 segundos</h2>
+        <h2 id="movimientos" class="estadisticas">Movivientos:</h2>
+      </section>
+    </main>
+    <footer>
+      <div class="copyright">
+        <p class="autor">
+          &copy; Realizado por: <b class="usuario">Roman Romero C.</b>
+        </p>
+        <div class="redes">
+          <a href="https://github.com/roman026" target="_blank" rel="noreferrer"
+            ><iconify-icon
+              icon="akar-icons:github-fill"
+              width="25"
+              height="25"
+            ></iconify-icon
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/roman026"
+            target="_blank"
+            rel="noreferrer"
+            ><iconify-icon
+              icon="logos:linkedin-icon"
+              width="25"
+              height="25"
+            ></iconify-icon
+          ></a>
+        </div>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
