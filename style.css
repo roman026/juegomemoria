@@ -79,8 +79,8 @@ iconify-icon {
     width: 100%;
   }
   button {
-    height: 9.5rem;
-    width: 9.5rem;
+    height: 5.5rem;
+    width: 5.5rem;
   }
   table {
     margin: auto;
@@ -90,6 +90,10 @@ iconify-icon {
     justify-content: center;
     width: 95%;
     height: 10%;
+  }
+  .estadisticas {
+    font-size: 1rem;
+    text-align: center;
   }
 }
 
