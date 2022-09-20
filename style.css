@@ -34,6 +34,21 @@ button {
   font-weight: bold;
 }
 
+.btnNuevo {
+  font-size: 18px;
+  background-color: rgb(10, 179, 10);
+  padding: 5px 5px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  text-decoration: none;
+  color: rgb(245, 240, 240);
+  position: relative;
+  overflow: hidden;
+}
+.btnNuevo:hover {
+  filter: brightness(0.9);
+}
+
 button:hover {
   cursor: pointer;
 }
@@ -81,6 +96,10 @@ iconify-icon {
   button {
     height: 5.5rem;
     width: 5.5rem;
+  }
+  .btnNuevo {
+    width: 60%;
+    height: 45px;
   }
   table {
     margin: auto;

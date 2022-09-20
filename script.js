@@ -21,6 +21,7 @@ let wrongAudio = new Audio("./sound/wrong.wav");
 let $mostrarMovimientos = document.getElementById("movimientos");
 let $mostrarAciertos = document.getElementById("aciertos");
 let $mostraTiempo = document.getElementById("t_restante");
+const $btnNuevo = document.getElementById("btnNuevo");
 
 //Generacion de los numeros aleatorios
 let numeros = [1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 6, 7, 7, 8, 8];
@@ -109,3 +110,6 @@ function destapar(id) {
     }
   }
 }
+$btnNuevo.onclick = () => {
+  location.reload();
+};
